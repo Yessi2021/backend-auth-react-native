@@ -8,7 +8,7 @@ const User = require('./models/user');
 
 const app = express();
 
-app.use( cors() )
+app.use( cors());
 
 // app.use((req, res, next) => {
 //   req.on('data', chunk => {
